@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Four card feature section</title>
+</head>
+<body>
+<section class="px-10 py-20">
+    <div class="mb-20 md:flex md:flex-col md:items-center">
+        <div class="mb-6">
+            <h1 class="text-2xl text-center text-gray-400">Reliable, efficient delivery</h1>
+            <p class="text-2xl font-bold text-center text-gray-600">Powered by Technology</p>
+        </div>
+        <p class="text-center text-gray-400 md:w-1/2">
+            Our Artificial Intelligence powered tools use millions of project data points
+            to ensure that your project is successful
+        </p>
+    </div>
+
+    <!--    Cards-->
+    <section class="md:flex md:items-center md:px-20">
+        <!--        Supervisor Cards-->
+        <div class="bg-white shadow-xl rounded-lg border-t-4 border-t-cyan-400 px-8 py-6 mb-6 md:mb-0 md:mr-6 md:flex-1">
+            <p class="text-2xl font-semibold text-gray-600 mb-2">Supervisor</p>
+            <p class="text-gray-400 mb-10">Monitors activity to identify project roadblocks</p>
+            <div class="flex items-end justify-end">
+                <img src="./images/icon-supervisor.svg" alt="supervisor">
+            </div>
+        </div>
+        <div class="md:flex-1">
+            <!--        Team Builder-->
+            <div class="bg-white shadow-xl rounded-lg border-t-4 border-t-red-400 px-8 py-6 mb-6">
+                <p class="text-2xl font-semibold text-gray-600 mb-2">Team Builder</p>
+                <p class="text-gray-400 mb-10">Scans our talent network to create the optimal team for your project</p>
+                <div class="flex items-end justify-end">
+                    <img src="./images/icon-team-builder.svg" alt="team-builder">
+                </div>
+            </div>
+            <!--        Karma-->
+            <div class="bg-white shadow-xl rounded-lg border-t-4 border-t-yellow-400 px-8 py-6 mb-6">
+                <p class="text-2xl font-semibold text-gray-600 mb-2">Karma</p>
+                <p class="text-gray-400 mb-10">Regularly evaluates our talent to ensure quality</p>
+                <div class="flex items-end justify-end">
+                    <img src="./images/icon-karma.svg" alt="karma">
+                </div>
+            </div>
+        </div>
+        <!--        Calculator-->
+        <div class="bg-white shadow-xl rounded-lg border-t-4 border-t-blue-400 px-8 py-6 mb-6 md:mb-0 md:ml-6 md:flex-1">
+            <p class="text-2xl font-semibold text-gray-600 mb-2">Calculator</p>
+            <p class="text-gray-400 mb-10">Uses data from past projects to provide better delivery estimates</p>
+            <div class="flex items-end justify-end">
+                <img src="./images/icon-calculator.svg" alt="calculator">
+            </div>
+        </div>
+    </section>
+</section>
+</body>
+</html>
